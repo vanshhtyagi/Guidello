@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guides and Tours</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .sidebar {
+            width: 200px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .options button {
+            background-color: white;
+            color: black;
+            border: none;
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .tour-selection {
+            background-color:  #ec088d;;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            width: 200px;
+        }
+
+        .tour-selection select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .guide-list {
+            width: 60%;
+            padding: 20px;
+        }
+
+        .guide {
+            margin-bottom: 20px;
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        .confirm-btn {
+            background-color:  #E4007C;;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="options">
+                <form action="profile2.html">
+                <button>Profile</button>
+                </form>
+                <form action="My trips.html">
+                <button>My trips</button>
+                </form>
+                <form action="booking.html">
+                <button>Home</button>    
+                </form>
+                <form action="Guidello blog.html">
+                    <button>Our Blog</button>
+                </form>    
+                <form action="Login.html">
+                    <button>Logout</button>
+                </form>
+            </div>
+        </div>
+        <div class="guide-list">
+            <div class="guide">
+                <h2>Mansi Tyagi</h2>
+                <p>City: Delhi</p>
+                <p>Specialisation : Cafe hopping</p>
+                <p>Languages : Hindi, English</p>
+                <p>Rating : 4.9</p>
+                <form action="Payment portal.html">
+                <button class="confirm-btn">Confirm booking</button>
+                </form>
+            </div>
+            <div class="guide">
+                <h2>Lavanya Dhiman</h2>
+                <p>City: Delhi</p>
+                <p>Specialisation : Hide-outs</p>
+                <p>Languages : Hindi, English</p>
+                <p>Rating : 3.8</p>
+                <form action="Payment portal.html">
+                <button class="confirm-btn">Confirm booking</button>
+                </form>
+            </div>
+            <div class="guide">
+                <h2>Ayush Kaushik</h2>
+                <p>City: Delhi</p>
+                <p>Specialisation : Shopping hubs</p>
+                <p>Languages : Hindi, English</p>
+                <p>Rating : 2.7</p>
+                <form action="Payment portal.html">
+                <button class="confirm-btn">Confirm booking</button>
+            </form>
+            </div>
+            <div class="guide">
+                <h2>Vansh Tyagi</h2>
+                <p>City: Delhi</p>
+                <p>Specialisation : street-food</p>
+                <p>Languages : Hindi, English</p>
+                <p>Rating : 2.5</p>
+                <form action="Payment portal.html">
+                <button class="confirm-btn">Confirm booking</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="tour-selection">
+            <h2>Choose Tour Type</h2>
+            <select>
+                <option value="all">All</option>
+                <option value="street-food">Street food</option>
+                <option value="shopping-hubs">Shopping hubs</option>
+                <option value="hide-outs">Hide-outs</option>
+                <option value="cafe-hopping">Cafe hopping</option>
+            </select>
+            <br></br>
+            <img src="Guidello logo.jpg" width="200" height="180">
+        </div>
+    </div>
+</body>
+</html>

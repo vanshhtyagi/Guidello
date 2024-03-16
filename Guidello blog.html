@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guidello Blog</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .white-container {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .white-container button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+
+    .charcoal-container {
+        background-color: #333; 
+        border-radius: 10px;
+        padding: 20px;
+        width: 60%;
+    }
+
+    .charcoal-container h2 {
+        text-align: center;
+    }
+
+    .blog {
+        margin-bottom: 20px;
+    }
+
+    .mexican-pink-container {
+        background-color: #e4007c; 
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .mexican-pink-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .mexican-pink-container input[type="text"] {
+        width: 100%;
+        height: 300px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .mexican-pink-container img {
+        width: 150px;
+        border-radius: 50%;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="white-container">
+        <form action="profile2.html">
+        <button>Profile</button>
+    </form>
+        <form action="My trips.html">
+        <button>My Trips</button>
+        </form>
+        <form action="Confirm booking.html"> 
+        <button>Book a Guide </button>
+        </form>
+        <form action="booking.html">
+        <button>Home</button>    
+        </form>
+        <form action="Guidello blog.html">
+            <button>Our Blog</button>
+        </form>
+        <form action="Login.html">
+            <button>Logout</button>
+        </form>
+    </div>
+    <div class="charcoal-container">
+        <h2>Guidello Blog</h2>
+        <div class="blog">
+            <h3>Blog by Babu Rao Ganpat Rao Aapte</h3>
+            <p>My trip with Guidello to the lesser-known parts of Chandni Chowk was truly mesmerizing. Our knowledgeable guide led us through narrow alleys and hidden gems, revealing the rich history and vibrant culture of this historic area. From obscure temples to traditional artisans, every corner held a fascinating story waiting to be uncovered. The personalized attention and in-depth insights provided by our guide added immense value to the journey. The trip was well-organized, and the guide's infectious enthusiasm for the area made it an unforgettable experience, leaving me with a newfound appreciation for Chandni Chowk's hidden treasures.</p>
+        </div>
+        <div class="blog">
+            <h3>Blog by Raju</h3>
+            <p>Exploring the cafe­s of Majnu ka Tila with a knowledgeable guide­ was a wonderful experie­nce. Our guide's dee­p understanding of the local food scene­ and hidden gems made the­ trip truly memorable. From cozy corners to live­ly hangouts, each cafe had its own special charm and flavors to offe­r. The guide's recomme­ndations and insights into the specialties of e­ach cafe enhanced our culinary journe­y. With their attention to detail and pe­rsonalized approach, we were­ able to discover the be­st that Majnu ka Tila's cafe culture had to offer. It was a de­lightful blend of flavors, ambiance, and cultural immersion - an absolute­ must for any cafe enthusiast.</p>
+        </div>
+        <div class="blog">
+            <h3>Blog by Shyaam</h3>
+            <p>My trip to the Aravalli Hills with Guide­llo was thrilling. The guide's expe­rtise in navigating the trails and showcasing the natural be­auty was impressive. Riding through the rugge­d terrain, we saw stunning views, pe­aceful lakes, and hidden paths that re­vealed the wonde­rs of the region. The guide­'s knowledge of the local plants and animals adde­d depth to the journey, making it both an adve­nture and a learning expe­rience. Guidello's we­ll-planned itinerary and focus on safety made­ the trip enjoyable and me­morable, inspiring a newfound love for outdoor e­xploration.</p>
+        </div>
+    </div>
+    <div class="mexican-pink-container">
+        <h2>Put up blogs about your Experiences</h2>
+        <input type="text" placeholder="Enter your blog here..." class="top">
+        <button onclick="submitblog()">Submit Blog</button>
+            <script>
+                function submitblog() {
+                window.alert('Blog has been sent for review.');
+                }
+                </script>
+        <img src="Guidy.png" class="bottom-center">    
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .white-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+        }
+
+        .white-box button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .charcoal-box {
+            background-color: #333; 
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 600px;
+            text-align: left;
+        }
+
+        .charcoal-box p {
+            color: white;
+        }
+
+        .pink-box {
+            background-color: #e4007c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            height: 600px;
+            text-align: center;
+        }
+
+        .pink-box select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #e4007c;
+            cursor: pointer;
+        }
+
+        .pink-box img {
+            width: 100%;
+            max-width: 150px;
+            margin-top: 20px;
+        }
+
+        .bookings {
+            flex-grow: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="white-box">
+            <form action="profile2.html">
+            <button>Profile</button>
+        </form>
+            <button>My trips</button>
+            <form action="Confirm booking.html"> 
+            <button>Book a Guide </button>
+        </form>
+            <form action="booking.html">
+            <button>Home</button>    
+            </form>
+            <form action="Guidello blog.html">
+                <button>Our Blog</button>
+            </form>
+            
+            <form action="Login.html">
+                <button>Logout</button>
+            </form>
+        </div>
+        <div class="charcoal-box">
+        <div class="bookings">
+            <h1>My Trips</h1>
+            <p>
+                You have no Trips as of now.
+            </p>
+        </div>
+        </div>
+        <div class="pink-box">
+            <h2>Things we're working on.</h2>
+        <h5>Adding more cities.</h5>
+        <h5>Adding more off-beat locations.</h5>
+        <h5>Adding multilingual guides.</h5>
+        <h5>Adding fun rural sites.</h5>
+        <p>
+
+            </p>
+            <br></br>
+            <br></br>
+            <br></br>
+            <img src="Guidy.png" alt="Image">
+        </div>
+    </div>
+</body>
+</html>

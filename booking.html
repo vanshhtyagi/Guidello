@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+        body {
+            
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+        }
+        .black-section {
+            background-color: black;
+            color: white;
+            flex: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .white-section {
+            background-color: #E4007C;
+            color: white;
+            flex: 25%;
+            align-items: end;
+            text-align: center;
+        }
+        .button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #E4007C; 
+        color: rgb(255, 255, 255);
+        border: 2px solid white; 
+        border-radius: 12px;
+    }
+        #about-us {
+            text-align: center;
+            font-weight: bold;
+        }
+        #buttons {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="black-section">
+        <img src="Guidello logo.jpg" width="400" height="400"> </img>
+
+        <div id="about-us">
+            <h2>About Guidello</h2>
+            <p>Welcome to our tourism website! We specialize in exploring uncharted territories within major tourist hubs, providing unique and unforgettable experiences. Whether you're seeking adventure, relaxation, or cultural immersion, we have something for every traveler. Join us on a journey to discover the hidden gems of the world!</p>
+        </div>
+
+        <div id="buttons">
+            <form action="become a guide page.html">
+            <button class="button">Become A Guide</button>
+        </form>
+            <form action="Confirm booking.html">
+            <button class="button">Book A Guide</button>
+        </form>
+        </div>
+    </div>
+
+    <div class="white-section">
+        <br></br>
+        <br></br>
+        <h2> Contact us </h2>
+        <h5>  Call us @ +91 9895XXXXXX</h5>
+        <h5>  Mail us @ guixxxxxxx@gmail.com</h5>
+        <h5>  Follow us on instagram @instaguidello</h5>
+    
+        <style>
+            .bottom-center {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                transform: translate(-50%, 0);
+            }
+        </style>
+        
+        <img class="bottom-center" src="Guidy.png" width="180"  >
+
+    </div>
+</body>
+</html>

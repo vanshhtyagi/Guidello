@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guidello Blog</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .white-container {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .white-container button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+
+    .charcoal-container {
+        background-color: #333; /* Charcoal grey */
+        border-radius: 10px;
+        padding: 20px;
+        width: 60%;
+    }
+
+    .charcoal-container h2 {
+        text-align: center;
+    }
+
+    .blog {
+        margin-bottom: 20px;
+    }
+
+    .mexican-pink-container {
+        background-color: #e4007c; /* Mexican pink */
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .mexican-pink-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .mexican-pink-container input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .mexican-pink-container img {
+        width: 150px;
+        border-radius: 50%;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="white-container">
+        <button>Home</button>
+        <button>Blog</button>
+        <button>About</button>
+        <button>Contact</button>
+        <button>Search</button>
+    </div>
+    <div class="charcoal-container">
+        <h2>Guidello Blog</h2>
+        <div class="blog">
+            <h3>Blog Title 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="blog">
+            <h3>Blog Title 2</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="blog">
+            <h3>Blog Title 3</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </div>
+    <div class="mexican-pink-container">
+        <h2>Put up blogs about more unexplored places</h2>
+        <input type="text" placeholder="Enter your blog here...">
+        <img src="image.jpg" alt="Image">
+    </div>
+</div>
+</body>
+</html>
